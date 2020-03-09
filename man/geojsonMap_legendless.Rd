@@ -42,7 +42,7 @@ geojsonMap_legendless(dat, mapName, namevar=NULL, valuevar=NULL,
 Modified from leafletCN::geojsonMap()
 }
 \examples{
-\dontrun {
+\dontrun{
 dat = data.frame(name = regionNames("china"),
                  value = runif(35))
 geojsonMap(dat,"china")
